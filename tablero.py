@@ -8,3 +8,8 @@ class Tablero:
     def mostrar_tablero(self):
         for fila in self.casillas:
             print(" ".join(str(celda) for celda in fila))
+
+
+if __name__ == "__main__":
+    tablero = Tablero(5)
+    tablero.mostrar_tablero()
