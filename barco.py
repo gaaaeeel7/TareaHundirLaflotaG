@@ -17,5 +17,23 @@ class Barco:
         print(f"Barco: {self.nombre}")
         print(f"Longitud: {self.longitud}")
         print(f"Golpes recibidos: {self.golpes_recibidos}")
-        print(f"Hundido: {self.esta_hundido()}")
+        print(f"Hundido: {self.metodo_hundir()}")
+
+# Bloque de pruebas
+if __name__ == "__main__":
+    # Submarino de longitud 1
+    submarino = Barco("Submarino", 1)
+    submarino.recibir_impacto()
+    submarino.metodo_estado()
+
+    print("---")
+
+    # Buque de longitud 3
+    buque = Barco("Buque", 3)
+    buque.recibir_impacto()
+    buque.recibir_impacto()
+    buque.metodo_estado()
+
+    buque.recibir_impacto()
+    buque.metodo_estado()
 
