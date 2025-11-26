@@ -13,4 +13,9 @@ class Barco:
     def metodo_hundir(self):
         return self.golpes_recibidos >= self.longitud
 
+    def metodo_estado(self):
+        print(f"Barco: {self.nombre}")
+        print(f"Longitud: {self.longitud}")
+        print(f"Golpes recibidos: {self.golpes_recibidos}")
+        print(f"Hundido: {self.esta_hundido()}")
 
