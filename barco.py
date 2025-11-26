@@ -10,4 +10,7 @@ class Barco:
         if self.golpes_recibidos < self.longitud:
             self.golpes_recibidos += 1
 
+    def metodo_hundir(self):
+        return self.golpes_recibidos >= self.longitud
+
 
