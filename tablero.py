@@ -14,4 +14,8 @@ if __name__ == "__main__":
     tablero = Tablero(5)
     tablero.mostrar_tablero()
 
+<<<<<<< HEAD
 "Ajuste de comentarios en Tablero (Remoto 1)"
+=======
+print("Cambio local")
+>>>>>>> 2bda39d (cambios)
