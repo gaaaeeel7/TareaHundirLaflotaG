@@ -13,3 +13,5 @@ class Tablero:
 if __name__ == "__main__":
     tablero = Tablero(5)
     tablero.mostrar_tablero()
+
+print("Cambio remoto")
