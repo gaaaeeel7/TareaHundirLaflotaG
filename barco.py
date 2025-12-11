@@ -41,3 +41,5 @@ if __name__ == "__main__":
     buque.recibir_impacto()
     buque.metodo_estado()
 
+
+

@@ -14,5 +14,9 @@ if __name__ == "__main__":
     tablero = Tablero(5)
     tablero.mostrar_tablero()
 
-print("Cambio local")  # ejemplo de cambio local que querías mantener
+print("Cambio local")  #  cambio local
+# Añadido un comentario a la clase Tablero.  # cambio remoto
+
+
+
 
