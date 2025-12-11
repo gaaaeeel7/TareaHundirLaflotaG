@@ -19,6 +19,10 @@ class Barco:
         print(f"Golpes recibidos: {self.golpes_recibidos}")
         print(f"Hundido: {self.metodo_hundir()}")
 
+
+# Ajuste de coordenadas en Barco (Remoto 2)
+
+
 # Bloque de pruebas
 if __name__ == "__main__":
     # Submarino de longitud 1
